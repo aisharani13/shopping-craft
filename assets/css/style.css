@@ -92,7 +92,6 @@ header .nav .nav-link:hover {
     color: #db5202;
 }
 header .nav .nav-item .dropdown-menu {
-    width: 270px;
     padding: 0;
 }
 header .nav .nav-item .dropdown-menu table {
@@ -107,16 +106,17 @@ header .nav .nav-item .dropdown-menu .dropdown-item {
     font-size: 15px;
     font-weight: 500;
     padding: 0px 20px;
-    transition: all 0.2s;
-    color: #9E1000;
+    transition: all 0.3s;
+    color: #000000;
     margin-right: 0px;
     line-height: 45px;
 }
 
 header .nav .nav-item .dropdown-menu .dropdown-item:hover {
-    color: #db5202;
-    letter-spacing: 0.7px;
+    color: #ffffff;
+    /* letter-spacing: 0.7px; */
     background-color: rgb(240, 240, 240);
+    background-color: #0D8120;
 }
 header .nav-button {
     display: block;
@@ -171,21 +171,17 @@ header .nav-button {
     position: relative;
     z-index: 1;
     padding: 15px 0;
-
 }
 
 .jk-banner-item-content {
-    padding: 10px 15px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-
+    padding: 15px 20px;
+   border-top: 1px solid rgb(224, 224, 224);
 }
 
 .jk-banner-item-content h2 {
     font-size: 18px;
     font-weight: 700;
-    line-height: 20px;
+    line-height:27px;
     margin-bottom: 5px;
 }
 
@@ -196,43 +192,6 @@ header .nav-button {
 .jk-banner-item-content h2 a:hover {
     color: #9e1000;
 }
-
-
-
-.jk-banner-item-content .jk-price {
-    color: #2f333a;
-    font-size: 18px;
-    font-weight: 600;
-    word-wrap: break-word;
-    margin-bottom: 5px;
-}
-
-
-.clr2 {
-    color: #111;
-    font-weight: 500;
-    font-size: 12px;
-
-}
-
-.jk-banner-item-content .jk-list-info ul {
-    list-style: none;
-    padding: 0;
-}
-
-.jk-banner-item-content .jk-list-info ul li {
-    font-size: 14px;
-    margin-bottom: 5px;
-    list-style: none;
-    color: #4f4f4f;
-    font-weight: 400;
-    line-height: 21px;
-}
-
-.fw6 {
-    font-weight: 600;
-}
-
 
 .home_boxes .jk-banner-item-warpper1 {
     background-color: #fff;
@@ -247,28 +206,23 @@ header .nav-button {
 }
 
 .home_boxes .jk_bnr_prd_img1 img {
-    height: 200px;
+    /* height: 200px; */
     width: 100%;
     transition: all 0.5s;
 }
 
-.home_boxes .jk_bnr_prd_img1:hover img {
+/* .home_boxes .jk_bnr_prd_img1:hover img {
     transform: scale(0.9);
-}
+} */
 
 /* banner top end */
 
 /* product start */
-
-.category-title a {
-    color: #2f333a;
-    font-size: 33px;
-    font-weight: 700;
-    margin-bottom: 0;
-}
-
-.category-title a:hover {
+.category-title{
     color: #9e1000;
+      font-size: 33px;
+    font-weight: 700;
+    margin: 30px 0px;
 }
 
 /* product end */
