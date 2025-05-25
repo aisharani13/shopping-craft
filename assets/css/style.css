@@ -206,7 +206,7 @@ header .nav-button {
 }
 
 .home_boxes .jk_bnr_prd_img1 img {
-    /* height: 200px; */
+    max-height: 280px;
     width: 100%;
     transition: all 0.5s;
 }
@@ -219,10 +219,11 @@ header .nav-button {
 
 /* product start */
 .category-title{
-    color: #9e1000;
+    color: #DB5202;
       font-size: 33px;
     font-weight: 700;
     margin: 30px 0px;
+  text-shadow: 1px 1px 1px #63f745;
 }
 
 /* product end */
