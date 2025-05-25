@@ -137,15 +137,59 @@
     <!-- offcanvas section start -->
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
         <div class="offcanvas-header">
-            <h5 class="offcanvas-title fw-bold logo">SHOPPING CRAFT</h5>
+            <h5 class="offcanvas-title">
+                <img src="./assets/img/logo.png" style="max-width: 150px;" alt="" class="img-fluid">
+            </h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
             <ul class="nav-item list-unstyled mb-0">
-                <li><a href="index.html">HOME</a> </li>
+                <li><a href="index.html">Home</a> </li>
                 <li><a href="#">About Us</a></li>
-                <li><a href="shilpra-play-house.html">Shilpra Play House</a></li>
+                <li><a href="shilpra-play-house.html" class="d-flex justify-content-between" role="button"
+                        data-bs-toggle="offcanvas" data-bs-target="#offcanvasDropdown"
+                        aria-controls="offcanvasDropdown">
+                        <span>Toys & Games</span>
+                        <span class="pe-3">
+                            <i class="fa-solid fa-angle-right"> </i>
+                        </span>
+                    </a>
+                </li>
+                <li><a href="#">Birthday Gifts</a></li>
+                <li><a href="#">Corporate Gifts</a></li>
                 <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasDropdown" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header align-items-start">
+            <h5 class="offcanvas-title">
+                <img src="./assets/img/logo.png" style="max-width: 150px;" alt="" class="img-fluid">
+                <p class="mb-0">
+                <a href="#" class="text-black h6" role="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <span>
+                        <i class="fa-solid fa-angle-left"> </i>
+                    </span>
+                    Toys & Games
+                </a>
+            </p>
+            </h5>
+            <button type="button" class="btn-close pt-0" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+        </div>
+        <div class="offcanvas-body">
+            <ul class="nav-item list-unstyled mb-0">
+                <li><a href="#">Educational Toy</a> </li>
+                <li><a href="#">Construction Toy</a></li>
+                <li><a href="#">Board Game</a></li>
+                <li><a href="#">Musical Toy</a></li>
+                <li><a href="#">Puzzle Game</a></li>
+                <li><a href="#">Building Blocks</a></li>
+                <li><a href="#">Sports Toy</a></li>
+                <li><a href="#">Creative Toy</a></li>
+                <li><a href="#">Baby Toy</a></li>
+                <li><a href="#">Outdoor Toy</a></li>
             </ul>
         </div>
     </div>
@@ -237,14 +281,15 @@
                 </div>
             </div>
             <div class="row mb-3">
-               <div class="col-auto mx-auto"><a href="#" class="view">View all <i class="fa-solid fa-angle-right"></i> </a></div>
+                <div class="col-auto mx-auto"><a href="#" class="view">View all <i class="fa-solid fa-angle-right"></i>
+                    </a></div>
             </div>
             <div class="row">
                 <div class="col-md-12">
                     <h2 class="category-title text-center"> Educational Toys </h2>
                 </div>
             </div>
-             <div class="row px-5 row-cols-lg-4 row-cols-md-2 row-cols-sm-2 row-cols-1">
+            <div class="row px-5 row-cols-lg-4 row-cols-md-2 row-cols-sm-2 row-cols-1">
                 <div class="col d-flex mb-3">
                     <div class="jk-banner-item-warpper1">
                         <div class="jk_bnr_prd_img1 ">
@@ -295,14 +340,15 @@
                 </div>
             </div>
             <div class="row mb-3">
-               <div class="col-auto mx-auto"><a href="#" class="view">View all <i class="fa-solid fa-angle-right"> </i> </a></div>
+                <div class="col-auto mx-auto"><a href="#" class="view">View all <i class="fa-solid fa-angle-right"> </i>
+                    </a></div>
             </div>
             <div class="row">
                 <div class="col-md-12">
                     <h2 class="category-title text-center"> Sports Toys </h2>
                 </div>
             </div>
-             <div class="row px-5 row-cols-lg-4 row-cols-md-2 row-cols-sm-2 row-cols-1">
+            <div class="row px-5 row-cols-lg-4 row-cols-md-2 row-cols-sm-2 row-cols-1">
                 <div class="col d-flex mb-3">
                     <div class="jk-banner-item-warpper1">
                         <div class="jk_bnr_prd_img1 ">
@@ -353,14 +399,15 @@
                 </div>
             </div>
             <div class="row mb-3">
-               <div class="col-auto mx-auto"><a href="#" class="view">View all <i class="fa-solid fa-angle-right"> </i> </a></div>
+                <div class="col-auto mx-auto"><a href="#" class="view">View all <i class="fa-solid fa-angle-right"> </i>
+                    </a></div>
             </div>
             <div class="row">
                 <div class="col-md-12">
                     <h2 class="category-title text-center"> Musical Toys </h2>
                 </div>
             </div>
-             <div class="row px-5 row-cols-lg-4 row-cols-md-2 row-cols-sm-2 row-cols-1">
+            <div class="row px-5 row-cols-lg-4 row-cols-md-2 row-cols-sm-2 row-cols-1">
                 <div class="col d-flex mb-3">
                     <div class="jk-banner-item-warpper1">
                         <div class="jk_bnr_prd_img1 ">
@@ -411,14 +458,15 @@
                 </div>
             </div>
             <div class="row mb-3">
-               <div class="col-auto mx-auto"><a href="#" class="view">View all <i class="fa-solid fa-angle-right"></i> </a></div>
+                <div class="col-auto mx-auto"><a href="#" class="view">View all <i class="fa-solid fa-angle-right"></i>
+                    </a></div>
             </div>
             <div class="row">
                 <div class="col-md-12">
                     <h2 class="category-title text-center"> Puzzle Games </h2>
                 </div>
             </div>
-             <div class="row px-5 row-cols-lg-4 row-cols-md-2 row-cols-sm-2 row-cols-1">
+            <div class="row px-5 row-cols-lg-4 row-cols-md-2 row-cols-sm-2 row-cols-1">
                 <div class="col d-flex mb-3">
                     <div class="jk-banner-item-warpper1">
                         <div class="jk_bnr_prd_img1 ">
@@ -469,14 +517,15 @@
                 </div>
             </div>
             <div class="row mb-3">
-               <div class="col-auto mx-auto"><a href="#" class="view">View all <i class="fa-solid fa-angle-right"></i> </a></div>
+                <div class="col-auto mx-auto"><a href="#" class="view">View all <i class="fa-solid fa-angle-right"></i>
+                    </a></div>
             </div>
             <div class="row">
                 <div class="col-md-12">
                     <h2 class="category-title text-center"> Baby Toys </h2>
                 </div>
             </div>
-             <div class="row px-5 row-cols-lg-4 row-cols-md-2 row-cols-sm-2 row-cols-1">
+            <div class="row px-5 row-cols-lg-4 row-cols-md-2 row-cols-sm-2 row-cols-1">
                 <div class="col d-flex mb-3">
                     <div class="jk-banner-item-warpper1">
                         <div class="jk_bnr_prd_img1 ">
@@ -527,7 +576,8 @@
                 </div>
             </div>
             <div class="row mb-3">
-               <div class="col-auto mx-auto"><a href="#" class="view">View all <i class="fa-solid fa-angle-right"></i> </a></div>
+                <div class="col-auto mx-auto"><a href="#" class="view">View all <i class="fa-solid fa-angle-right"></i>
+                    </a></div>
             </div>
         </div>
     </section>

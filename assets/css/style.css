@@ -134,24 +134,26 @@ header .nav-button {
 
 /* header section end */
 
-.offcanvas.offcanvas-start {
-    width: 350px;
+.offcanvas {
+    max-width: 300px !important;
 }
 
 .offcanvas-body {
     font-size: 17px;
-    font-weight: 600;
     padding: 0px;
-    background-color: #9E1000;
+    background-color:hsl(249, 87%, 12%);
 }
 
 .offcanvas-body ul li {
-    line-height: 55px;
+    line-height: 50px;
     padding: 0px 10px;
+    font-weight: 600;
     border-top: 1px solid rgb(206, 206, 206);
     transition: all 0.3s;
 }
-
+.offcanvas-body ul li:last-child{
+     border-bottom: 1px solid rgb(206, 206, 206);
+}
 .offcanvas-body ul li a {
     color: white;
 }
@@ -161,10 +163,15 @@ header .nav-button {
 }
 
 .offcanvas-body ul li:hover a {
-    color: #9e1000;
+    color: #E56E14;
 
 }
-
+.offcanvas-body ul li span{
+    color: white;
+}
+.offcanvas-body ul li:hover span{
+    color: #db5202;
+}
 /* navbar section end */
 
 /* banner top start */
