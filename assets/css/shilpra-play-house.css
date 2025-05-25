@@ -40,12 +40,12 @@ header {
     font-family: "Inter", sans-serif;
     box-shadow: 0 0 20px 1px rgba(0,0,0,.4);
 }
-/* 
+
 header .flieo {
-    max-width: 65px !important;
-    max-height: 65px !important;
+    max-width: 100px !important;
+    max-height: 95px !important;
     align-items: center !important;
-} */
+}
 
 .logo {
     font-family: 'Poppins', sans-serif;
@@ -110,7 +110,7 @@ header .header-button:hover {
 /* header section end */
 /* navbar section start */
 nav {
-    background-color: #2f333a;
+    background-color:  #04255e;
     font-family: "Inter", sans-serif;
 }
 
@@ -129,7 +129,7 @@ nav .nav-item li a {
 }
 
 nav .nav-item li:hover {
-    background-color: #9E1000;
+    background-color:#009e08;
 }
 
 nav .nav-button {
