@@ -34,12 +34,13 @@
                     </button>
                 </div>
                 <div class="col-auto py-1 ">
-                    <a href="index.html"><img src="/assets/img/logo.png" style="max-width: 150px;" alt=""
+                    <a href="index.html"><img src="./assets/img/logo.png" style="max-width: 150px;" alt=""
                             class="img-fluid"></a>
                 </div>
                 <div class="col-auto mx-auto d-none d-md-block">
                     <ul class="nav">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">About Us</a>
@@ -53,14 +54,12 @@
                                         <tr>
                                             <td class="p-0">
                                                 <li>
-                                                    <a class="dropdown-item" href="educational.html"> Educational
-                                                        Toy</a>
+                                                    <a class="dropdown-item" href="educational.html"> Educational Toy</a>
                                                 </li>
                                             </td>
                                             <td class="p-0">
                                                 <li>
-                                                    <a class="dropdown-item" href="construction.html">Construction Toy
-                                                    </a>
+                                                    <a class="dropdown-item" href="construction.html">Construction Toy </a>
                                                 </li>
                                             </td>
                                         </tr>
@@ -136,6 +135,68 @@
         </div>
     </header>
     <!-- Header end -->
+    <!-- offcanvas section start -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title">
+                <a href="index.html"><img src="./assets/img/logo.png" style="max-width: 150px;" alt=""
+                        class="img-fluid"></a>
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="nav-item list-unstyled mb-0">
+                <li><a href="index.html">Home</a> </li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#" class="d-flex justify-content-between" role="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasDropdown" aria-controls="offcanvasDropdown">
+                        <span>Toys & Games</span>
+                        <span class="pe-3">
+                            <i class="fa-solid fa-angle-right"> </i>
+                        </span>
+                    </a>
+                </li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="#">Birthday Gifts</a></li>
+                <li><a href="#">Corporate Gifts</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasDropdown" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header align-items-start">
+            <h5 class="offcanvas-title">
+                <a href="index.html"><img src="./assets/img/logo.png" style="max-width: 150px;" alt=""
+                        class="img-fluid"></a>
+                <p class="mb-0">
+                    <a href="#" class="text-black h6" role="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                        <span>
+                            <i class="fa-solid fa-angle-left"> </i>
+                        </span>
+                        Toys & Games
+                    </a>
+                </p>
+            </h5>
+            <button type="button" class="btn-close pt-0" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+        </div>
+        <div class="offcanvas-body">
+            <ul class="nav-item list-unstyled mb-0">
+                <li><a href="educational.html">Educational Toy</a> </li>
+                <li><a href="construction.html">Construction Toy</a></li>
+                <li><a href="board_game.html">Board Game</a></li>
+                <li><a href="musical_toy.html">Musical Toy</a></li>
+                <li><a href="#">Puzzle Game</a></li>
+                <li><a href="#">Building Blocks</a></li>
+                <li><a href="#">Sports Toy</a></li>
+                <li><a href="#">Creative Toy</a></li>
+                <li><a href="#">Baby Toy</a></li>
+                <li><a href="#">Outdoor Toy</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- offcanvas section end -->
 
     <!-- Festive Swag Basket start -->
     <section class="festive">
