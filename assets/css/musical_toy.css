@@ -18,19 +18,21 @@ a {
 }
 
 .button {
-    padding: 7px 20px;
-    font-size: 25px;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 600;
     border: none;
-    background-color: #9E1000;
+    background-color: #0D8120;
     color: white;
     border-radius: 6px;
-    border: 1px solid #9E1000;
+    border: 1px solid #0D8120;
     transition: all 0.4s;
 }
 
 .button:hover {
-    color: #9E1000;
+    color: #0D8120;
     background-color: white;
+    border: 1px solid #0D8120;
 }
 
 .button a {
@@ -38,7 +40,7 @@ a {
 }
 
 .button:hover a {
-    color: #9E1000;
+    color: #0D8120;
 }
 
 /* topheader section start */
@@ -138,29 +140,110 @@ header .nav-button {
 }
 
 /* header section end */
+.offcanvas {
+    max-width: 300px !important;
+}
 
-/* Festive Swag Basket start */
-table {
+.offcanvas-body {
+    font-size: 17px;
+    padding: 0px;
+    background-color:hsl(249, 87%, 12%);
+}
+
+.offcanvas-body ul li {
+    line-height: 50px;
+    padding: 0px 10px;
+    font-weight: 600;
+    border-top: 1px solid rgb(206, 206, 206);
+    transition: all 0.3s;
+}
+.offcanvas-body ul li:last-child{
+     border-bottom: 1px solid rgb(206, 206, 206);
+}
+.offcanvas-body ul li a {
+    color: white;
+}
+
+.offcanvas-body ul li:hover {
+    background-color: white;
+}
+
+.offcanvas-body ul li:hover a {
+    color: #E56E14;
+
+}
+.offcanvas-body ul li span{
+    color: white;
+}
+.offcanvas-body ul li:hover span{
+    color: #db5202;
+}
+/* navbar section end */
+
+/* Musical start */
+.musical .col-lg-6 .mainProductImage {
+    border: 2px solid #db5202;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px gray;
+    max-height: 450px;
+    min-height: 450px;
+    width: 100%;
+}
+
+.musical .col-lg-6 .thumb-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid rgb(109, 108, 108);
+    transition: all 0.1s;
+    margin-right: 20px;
+}
+
+.musical .col-lg-6 .thumb-img:last-child {
+    margin-right: 0px;
+}
+
+.musical .col-lg-6 .thumb-img.active {
+    border: 2px solid red;
+}
+
+.musical .col-lg-6 .thumb-img:hover {
+    padding: 5px;
+}
+
+.musical .box {
+    border-radius: 9px;
+}
+
+.musical table {
     caption-side: bottom;
     border-collapse: collapse;
 }
-tbody,tr,td {
+
+.musical tbody,
+.musical tr,
+.musical td {
     border-color: inherit;
     border-style: solid;
     border-width: 0;
 }
-.tbl td:first-child {
-    width: 20%;
+
+.musical table td:first-child {
     padding: 4px 0;
 }
+
 .fw6 {
     font-weight: 600;
 }
-.tbl td:last-child {
-    width: 70%;
+
+.musical table td:last-child {
     padding: 4px 0 4px 50px;
 }
-/* Festive Swag Basket end */
+
+/* Musical end */
+
 
 
 

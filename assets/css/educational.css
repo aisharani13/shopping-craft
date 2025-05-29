@@ -18,29 +18,29 @@ a {
 }
 
 .button {
-    padding: 7px 20px;
-    font-size: 25px;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 600;
     border: none;
-    background-color: #9E1000;
+    background-color: #0D8120;
     color: white;
     border-radius: 6px;
-    border: 1px solid #9E1000;
+    border: 1px solid #0D8120;
     transition: all 0.4s;
 }
 
 .button:hover {
-    color: #9E1000;
+    color: #0D8120;
     background-color: white;
+    border: 1px solid #0D8120;
 }
-
 .button a {
     color: white;
 }
 
 .button:hover a {
-    color: #9E1000;
+    color: #0D8120;
 }
-
 /* topheader section start */
 #topheader {
     background-color: #0D8120;
@@ -97,11 +97,9 @@ header .nav .nav-link:active {
 header .nav .nav-link:hover {
     color: #db5202;
 }
-
 header .nav .nav-item .dropdown-menu {
     padding: 0;
 }
-
 header .nav .nav-item .dropdown-menu table {
     box-shadow: 0px 5px 10px gray;
 }
@@ -126,7 +124,6 @@ header .nav .nav-item .dropdown-menu .dropdown-item:hover {
     background-color: rgb(240, 240, 240);
     background-color: #0D8120;
 }
-
 header .nav-button {
     display: block;
     cursor: pointer;
@@ -138,17 +135,57 @@ header .nav-button {
 }
 
 /* header section end */
+.offcanvas {
+    max-width: 300px !important;
+}
 
+.offcanvas-body {
+    font-size: 17px;
+    padding: 0px;
+    background-color:hsl(249, 87%, 12%);
+}
+
+.offcanvas-body ul li {
+    line-height: 50px;
+    padding: 0px 10px;
+    font-weight: 600;
+    border-top: 1px solid rgb(206, 206, 206);
+    transition: all 0.3s;
+}
+.offcanvas-body ul li:last-child{
+     border-bottom: 1px solid rgb(206, 206, 206);
+}
+.offcanvas-body ul li a {
+    color: white;
+}
+
+.offcanvas-body ul li:hover {
+    background-color: white;
+}
+
+.offcanvas-body ul li:hover a {
+    color: #E56E14;
+
+}
+.offcanvas-body ul li span{
+    color: white;
+}
+.offcanvas-body ul li:hover span{
+    color: #db5202;
+}
+/* navbar section end */
 
 /* Educational start */
-.Educational .col-lg-6 #mainDisplay{
+.Educational .col-lg-6 .mainProductImage {
     border: 2px solid #db5202;
     border-radius: 10px;
     box-shadow: 1px 1px 5px gray;
     max-height: 450px;
     min-height: 450px;
     width: 100%;
+    position: relative;
 }
+
 .Educational .col-lg-6 .thumb-img {
     width: 80px;
     height: 80px;
@@ -159,13 +196,28 @@ header .nav-button {
     transition: all 0.1s;
     margin-right: 20px;
 }
-.Educational .col-lg-6 .thumb-img:last-child{
+
+.Educational .col-lg-6 .thumb-img:last-child {
     margin-right: 0px;
 }
+
 .Educational .col-lg-6 .thumb-img.active {
-    border:2px solid red;
+    border: 2px solid red;
 }
 
+.Educational .col-lg-6 .thumb-img:hover {
+    padding: 5px;
+}
+.Educational .col-lg-6 #youtube{
+    width: 100%;
+    max-height: 450px;
+    min-height: 450px;
+    background-color: rgba(0, 0, 0,0.5);
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+}
 .Educational .box {
     border-radius: 9px;
 }
@@ -265,10 +317,11 @@ header .nav-button {
         margin: 4px 0;
         width: 304px;
     }
-    .Educational .col-lg-6 #mainDisplay{
-    min-height: 350px;
-    width: 100%;
-}
+
+    .Educational .col-lg-6 #mainDisplay {
+        min-height: 350px;
+        width: 100%;
+    }
 }
 
 /* max-width:768px */

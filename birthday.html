@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOPPING CRAFT</title>
+    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/birthday.css">
+</head>
+
+<body>
+    <!-- top-header start -->
+    <section id="topheader">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col text-center">
+                    Save Up to 15% on Bulk Order
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- top-header start -->
+    <!-- Header start -->
+    <header class="sticky-top bg-white">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-auto d-block d-md-none">
+                    <button class="nav-button" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+                <div class="col-auto py-1 ">
+                    <a href="index.html"><img src="./assets/img/logo.png" style="max-width: 150px;" alt=""
+                            class="img-fluid"></a>
+                </div>
+                <div class="col-auto mx-auto d-none d-md-block">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="products.html">Toys & Games
+                                <i class="fa-solid fa-caret-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <table class="table mb-0">
+                                    <tbody>
+                                        <tr>
+                                            <td class="p-0">
+                                                <li>
+                                                    <a class="dropdown-item" href="educational.html"> Educational
+                                                        Toy</a>
+                                                </li>
+                                            </td>
+                                            <td class="p-0">
+                                                <li>
+                                                    <a class="dropdown-item" href="construction.html">Construction Toy
+                                                    </a>
+                                                </li>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="p-0">
+                                                <li>
+                                                    <a class="dropdown-item" href="board_game.html"> Board Game</a>
+                                                </li>
+                                            </td>
+                                            <td class="p-0">
+                                                <li>
+                                                    <a class="dropdown-item" href="musical_toy.html">Musical Toy</a>
+                                                </li>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="p-0">
+                                                <li>
+                                                    <a class="dropdown-item" href="puzzle.html"> Puzzle Game </a>
+                                                </li>
+                                            </td>
+                                            <td class="p-0">
+                                                <li>
+                                                    <a class="dropdown-item" href="building.html"> Building Blocks </a>
+                                                </li>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="p-0">
+                                                <li>
+                                                    <a class="dropdown-item" href="sports_toy.html"> Sports Toy </a>
+                                                </li>
+                                            </td>
+                                            <td class="p-0">
+                                                <li>
+                                                    <a class="dropdown-item" href="creative_toy.html"> Creative Toy </a>
+                                                </li>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="p-0">
+                                                <li>
+                                                    <a class="dropdown-item" href="baby_toy.html"> Baby Toy</a>
+                                                </li>
+                                            </td>
+                                            <td class="p-0">
+                                                <li>
+                                                    <a class="dropdown-item" href="outdoor_toy.html">Outdoor Toy</a>
+                                                </li>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="birthday.html" class="nav-link">Birthday Gifts</a></li>
+                        <li class="nav-item"><a href="corporate.html" class="nav-link">Corporate Gifts</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-auto ms-lg-auto mx-auto">
+                    <div class="input-group">
+                        <input class="form-control" type="text" placeholder="Search Products/Services" id="Search">
+                        <div class="input-group-text">
+                            <label for="Search">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                &nbsp; Search
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header end -->
+    <!-- offcanvas section start -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title">
+                <a href="index.html"><img src="./assets/img/logo.png" style="max-width: 150px;" alt=""
+                        class="img-fluid"></a>
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="nav-item list-unstyled mb-0">
+                <li><a href="index.html">Home</a> </li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#" class="d-flex justify-content-between" role="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasDropdown" aria-controls="offcanvasDropdown">
+                        <span>Toys & Games</span>
+                        <span class="pe-3">
+                            <i class="fa-solid fa-angle-right"> </i>
+                        </span>
+                    </a>
+                </li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="birthday.html">Birthday Gifts</a></li>
+                <li><a href="corporate.html">Corporate Gifts</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasDropdown" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header align-items-start">
+            <h5 class="offcanvas-title">
+                <a href="index.html"><img src="./assets/img/logo.png" style="max-width: 150px;" alt=""
+                        class="img-fluid"></a>
+                <p class="mb-0">
+                    <a href="#" class="text-black h6" role="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                        <span>
+                            <i class="fa-solid fa-angle-left"> </i>
+                        </span>
+                        Toys & Games
+                    </a>
+                </p>
+            </h5>
+            <button type="button" class="btn-close pt-0" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+        </div>
+        <div class="offcanvas-body">
+            <ul class="nav-item list-unstyled mb-0">
+                <li><a href="educational.html">Educational Toy</a> </li>
+                <li><a href="construction.html">Construction Toy</a></li>
+                <li><a href="board_game.html">Board Game</a></li>
+                <li><a href="musical_toy.html">Musical Toy</a></li>
+                <li><a href="puzzle.html">Puzzle Game</a></li>
+                <li><a href="building.html">Building Blocks</a></li>
+                <li><a href="sports_toy.html">Sports Toy</a></li>
+                <li><a href="creative_toy.html">Creative Toy</a></li>
+                <li><a href="baby_toy.html">Baby Toy</a></li>
+                <li><a href="outdoor_toy.html">Outdoor Toy</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- offcanvas section end -->
+
+    <!-- Birthday start -->
+    <section class="birthday">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="pt-5"><b>Birthday Gifts</b></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 pt-4">
+                    <img src="./assets/img/birthday_gifts/birthday_gifts_1.webp" alt="birthday_gifts_1"
+                        class="img-fluid mainProductImage" id="mainDisplay">
+                    <div class="d-flex justify-content-center gap-2 mt-4 flex-wrap">
+                        <img src="./assets/img/birthday_gifts/birthday_gifts_1.webp" class="thumb-img active"
+                            onclick="changeImage(this)" onmouseover="changeImage(this)">
+                        <img src="./assets/img/birthday_gifts/birthday_gifts_1_1.webp" class="thumb-img"
+                            onclick="changeImage(this)" onmouseover="changeImage(this)">
+                        <img src="./assets/img/birthday_gifts/birthday_gifts_1_2.jpg" class="thumb-img"
+                            onclick="changeImage(this)" onmouseover="changeImage(this)">
+                        <img src="./assets/img/birthday_gifts/birthday_gifts_1_3.webp" class="thumb-img"
+                            onclick="changeImage(this)" onmouseover="changeImage(this)">
+                    </div>
+                </div>
+                <div class="col-lg-6 px-5 pt-4">
+                    <div class="border box p-4">
+                        <h2><b>Tic Tac Toe Game</b></h2>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td class="fw6">Material</td>
+                                    <td>Plastic</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw6">Color</td>
+                                    <td>Multi Colors</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw6">Players</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw6">Packaging</td>
+                                    <td>Printed Box</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw6">Country of Origin</td>
+                                    <td>Made in India</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="mb-1 mt-2"><b>Gobble Game 3D Tic Tac Toe – A Strategic Spin on a Timeless Classic!</b>
+                        </p>
+                        <p>Bring a new dimension of fun to game night with Gobble Game 3D Tic Tac Toe! This clever twist
+                            on the traditional game elevates the challenge—literally—by introducing a vertical,
+                            multi-level playing board that keeps players thinking ahead.</p>
+                        <p><b>Product Features:</b></p>
+                        <ul>
+                            <li><b>Exciting 3D Gameplay: </b>Stack your way to victory across multiple levels for a
+                                strategic and dynamic experience.</li>
+                            <li><b>Easy Setup & Storage: </b>Assembles in minutes and stores compactly—perfect for
+                                families on the go. </li>
+                            <li><b>Fun Anywhere: </b>Great for indoor play, outdoor gatherings, picnics, travel, and
+                                more.</li>
+                            <li><b>Skill-Building Play: </b>Enhances strategic thinking, spatial awareness, and hand-eye
+                                coordination. </li>
+                            <li><b>Safe & Durable Design: </b>Made from high-quality, non-toxic materials built to
+                                withstand repeated play. </li>
+                        </ul>
+                        <div class="text-center">
+                            <a href="#" role="button" class="button btn btn-primary mt-3" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">
+                                <span class="h4"><i class="fa-brands fa-whatsapp"></i> </span>
+                                Get Based Del</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="./assets/img/birthday_gifts/birthday_gifts_2.webp" alt="birthday_gifts_1"
+                        class="img-fluid mainProductImage" id="mainDisplay1">
+                    <div class="d-flex justify-content-center gap-2 mt-4 flex-wrap">
+                        <img src="./assets/img/birthday_gifts/birthday_gifts_2.webp" class="thumb-img active"
+                            onclick="changeImage1(this)" onmouseover="changeImage1(this)">
+                        <img src="./assets/img/birthday_gifts/birthday_gifts_2_1.webp" class="thumb-img"
+                            onclick="changeImage1(this)" onmouseover="changeImage1(this)">
+                        <img src="./assets/img/birthday_gifts/birthday_gifts_2_2.jpg" class="thumb-img"
+                            onclick="changeImage1(this)" onmouseover="changeImage1(this)">
+                        <img src="./assets/img/birthday_gifts/birthday_gifts_2_3.webp" class="thumb-img"
+                            onclick="changeImage1(this)" onmouseover="changeImage1(this)">
+                    </div>
+                </div>
+                <div class="col-lg-6 px-5 pt-4">
+                    <div class="border box p-4">
+                        <h2><b>Magic Beans Cube</b></h2>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td class="fw6">Material</td>
+                                    <td>Plastic</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw6">Color</td>
+                                    <td>Multi Colors</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw6">Players</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw6">Packaging</td>
+                                    <td>Printed Box</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw6">Country of Origin</td>
+                                    <td>Made in India</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="mb-1 mt-2"><b>Magic Bean Rotating Cube – The Addictive Fidget Puzzle That Everyone
+                                Loves! </b></p>
+                        <p>Keep fingers busy and minds sharp with the Magic Bean Rotating Cube—a captivating fidget toy
+                            that combines the fun of spinning with a satisfying color-matching puzzle. It's the perfect
+                            blend of relaxation and mental challenge, designed for users of all ages.</p>
+                        <p><b>Product Features:</b></p>
+                        <ul>
+                            <li><b>Triple Rotating Modules: </b>Three independently spinning sections offer endless
+                                combinations and interactive fun.</li>
+                            <li><b>Bright "Magic Beans": </b>Colorful, tactile beads make it visually appealing and easy
+                                to handle.</li>
+                            <li><b>Challenging & Fun: </b>A clever color-matching puzzle that builds focus, patience,
+                                and problem-solving skills. </li>
+                            <li><b>Pocket-Sized Play: </b>Compact and lightweight—ideal for travel, school, or desk-side
+                                stress relief.</li>
+                            <li><b>Built to Last: </b>Made from durable, non-toxic materials for safe and long-lasting
+                                use. </li>
+                        </ul>
+                        <div class="text-center">
+                            <a href="#" role="button" class="button btn btn-primary mt-3" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">
+                                <span class="h4"><i class="fa-brands fa-whatsapp"></i> </span>
+                                Get Based Del</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="./assets/img/birthday_gifts/birthday_gifts_3.webp" alt="birthday_gifts_1"
+                        class="img-fluid mainProductImage" id="mainDisplay2">
+                    <div class="d-flex justify-content-center gap-2 mt-4 flex-wrap">
+                        <img src="./assets/img/birthday_gifts/birthday_gifts_3.webp" class="thumb-img active"
+                            onclick="changeImage2(this)" onmouseover="changeImage2(this)">
+                        <img src="./assets/img/birthday_gifts/birthday_gifts_3_1.webp" class="thumb-img"
+                            onclick="changeImage2(this)" onmouseover="changeImage2(this)">
+                        <img src="./assets/img/birthday_gifts/birthday_gifts_3_2.jpg" class="thumb-img"
+                            onclick="changeImage2(this)" onmouseover="changeImage2(this)">
+                        <img src="./assets/img/birthday_gifts/birthday_gifts_3_3.webp" class="thumb-img"
+                            onclick="changeImage2(this)" onmouseover="changeImage2(this)">
+                    </div>
+                </div>
+                <div class="col-lg-6 px-5 pt-4">
+                    <div class="border box p-4">
+                        <h2><b>Infinity Track Toy</b></h2>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td class="fw6">Material</td>
+                                    <td>Plastic</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw6">Color</td>
+                                    <td>Multi Colors</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw6">Players</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw6">Packaging</td>
+                                    <td>Printed Box</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw6">Country of Origin</td>
+                                    <td>Made in India</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="mb-1 mt-2"><b>Infinity Track – Endless Motion, Limitless Imagination!</b></p>
+                        <p>Elevate your toy inventory with the Infinity Track, an engaging, reconfigurable playset that
+                            keeps kids entertained while building essential developmental skills. Designed for non-stop
+                            fun and learning, it’s a must-have for parents, educators, and gift-givers alike.</p>
+                        <p><b>Product Features:</b></p>
+                        <ul>
+                            <li><b>Customizable Track System: </b>Flexible, interlocking pieces allow children to build,
+                                rebuild, and explore endless track layouts.</li>
+                            <li><b>Dynamic Rolling Action: </b>Watch the included balls zoom through loops, twists, and
+                                turns for high-energy fun.</li>
+                            <li><b>Skill-Building Play: </b>Supports fine motor development, spatial awareness, critical
+                                thinking, and hand-eye coordination.</li>
+                            <li><b>Encourages Creativity: </b>Open-ended design inspires kids to experiment and create
+                                their own track masterpieces. </li>
+                            <li><b>Child-Safe & Durable: </b>Crafted from premium, non-toxic materials to ensure safe,
+                                long-lasting play.</li>
+                        </ul>
+                        <div class="text-center">
+                            <a href="#" role="button" class="button btn btn-primary mt-3" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">
+                                <span class="h4"><i class="fa-brands fa-whatsapp"></i> </span>
+                                Get Based Del</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="./assets/img/birthday_gifts/birthday_gifts_4.webp" alt="birthday_gifts_1"
+                        class="img-fluid mainProductImage" id="mainDisplay3">
+                    <div class="d-flex justify-content-center gap-2 mt-4 flex-wrap">
+                        <img src="./assets/img/birthday_gifts/birthday_gifts_4.webp" class="thumb-img active"
+                            onclick="changeImage3(this)" onmouseover="changeImage3(this)">
+                        <img src="./assets/img/birthday_gifts/birthday_gifts_4_1.webp" class="thumb-img"
+                            onclick="changeImage3(this)" onmouseover="changeImage3(this)">
+                        <img src="./assets/img/birthday_gifts/birthday_gifts_4_2.jpg" class="thumb-img"
+                            onclick="changeImage3(this)" onmouseover="changeImage3(this)">
+                        <img src="./assets/img/birthday_gifts/birthday_gifts_4_3.webp" class="thumb-img"
+                            onclick="changeImage3(this)" onmouseover="changeImage3(this)">
+                    </div>
+                </div>
+                <div class="col-lg-6 px-5 pt-4">
+                    <div class="border box p-4">
+                        <h2><b>Table Tennis Toy</b></h2>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td class="fw6">Material</td>
+                                    <td>Plastic</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw6">Color</td>
+                                    <td>Multi Colors</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw6">Players</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw6">Packaging</td>
+                                    <td>Printed Box</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw6">Country of Origin</td>
+                                    <td>Made in India</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="mb-1 mt-2"><b>Table Tennis Rebound Trainer – Practice Anytime, Anywhere! </b></p>
+                        <p>Take your table tennis game to the next level—no partner required! The Table Tennis Rebound
+                            Trainer offers a fun and effective way to sharpen your skills, whether you’re a beginner or
+                            a seasoned player.</p>
+                        <p><b>Product Features:</b></p>
+                        <ul>
+                            <li><b>Solo Training Made Easy: </b>Innovative rebound design returns the ball consistently
+                                for endless practice on serves, volleys, and groundstrokes. </li>
+                            <li><b>Portable & Lightweight: </b>Quick to assemble and compact enough for indoor or
+                                outdoor use—ideal for homes, parks, or on-the-go training. </li>
+                            <li><b>Built to Last: </b>Constructed with durable materials to endure repeated hits and
+                                all-weather conditions.</li>
+                            <li><b>Skill Enhancement: </b>Perfect for improving hand-eye coordination, timing, accuracy,
+                                and ball control. </li>
+                            <li><b>Complete Set: </b> Includes 1 rebound trainer, 2 high-quality wooden paddles, and 2
+                                standard 40mm table tennis balls.</li>
+                        </ul>
+                        <div class="text-center">
+                            <a href="#" role="button" class="button btn btn-primary mt-3" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">
+                                <span class="h4"><i class="fa-brands fa-whatsapp"></i> </span>
+                                Get Based Del</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="./assets/img/birthday_gifts/birthday_gifts_5.webp" alt="birthday_gifts_1"
+                        class="img-fluid mainProductImage" id="mainDisplay4">
+                    <div class="d-flex justify-content-center gap-2 mt-4 flex-wrap">
+                        <img src="./assets/img/birthday_gifts/birthday_gifts_5.webp" class="thumb-img active"
+                            onclick="changeImage4(this)" onmouseover="changeImage4(this)">
+                        <img src="./assets/img/birthday_gifts/birthday_gifts_5_1.webp" class="thumb-img"
+                            onclick="changeImage4(this)" onmouseover="changeImage4(this)">
+                        <img src="./assets/img/birthday_gifts/birthday_gifts_5_2.jpg" class="thumb-img"
+                            onclick="changeImage4(this)" onmouseover="changeImage4(this)">
+                        <img src="./assets/img/birthday_gifts/birthday_gifts_5_3.webp" class="thumb-img"
+                            onclick="changeImage4(this)" onmouseover="changeImage4(this)">
+                    </div>
+                </div>
+                <div class="col-lg-6 px-5 pt-4">
+                    <div class="border box p-4">
+                        <h2><b>Table Tennis Toy</b></h2>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td class="fw6">Material</td>
+                                    <td>Plastic</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw6">Color</td>
+                                    <td>Multi Colors</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw6">Players</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw6">Packaging</td>
+                                    <td>Printed Box</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw6">Country of Origin</td>
+                                    <td>Made in India</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="mb-1 mt-2"><b>Table Tennis Rebound Trainer – Master Your Skills, Anytime, Anywhere!!</b> </p>
+                        <p>Elevate your table tennis game with the Table Tennis Rebound Trainer – the ultimate solo training solution for players of all levels. Whether you're at home, in the park, or on the move, this innovative trainer helps improve consistency, control, and confidence.</p>
+                        <p><b>Key Features:</b></p>
+                        <ul>
+                            <li><b>Solo Practice Made Easy: </b> Rebound design delivers smooth, consistent returns for mastering serves, volleys, and groundstrokes.</li>
+                            <li><b>Lightweight & Portable: </b>Quick to assemble and easy to transport—ideal for indoor or outdoor use.</li>
+                            <li><b>Durable Build: </b>Made from high-quality materials to withstand frequent play and tough conditions..</li>
+                            <li><b>Skill Development: </b>Boosts hand-eye coordination, ball control, accuracy, and timing.</li>
+                            <li><b>Complete Set: </b>Includes 1 rebound trainer, 2 wooden paddles, and 2 standard 40mm balls.</li>
+                        </ul>
+                        <div class="text-center">
+                            <a href="#" role="button" class="button btn btn-primary mt-3" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">
+                                <span class="h4"><i class="fa-brands fa-whatsapp"></i> </span>
+                                Get Based Del</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="./assets/img/birthday_gifts/birthday_gifts_6.webp" alt="birthday_gifts_1"
+                        class="img-fluid mainProductImage" id="mainDisplay5">
+                    <div class="d-flex justify-content-center gap-2 mt-4 flex-wrap">
+                        <img src="./assets/img/birthday_gifts/birthday_gifts_6.webp" class="thumb-img active"
+                            onclick="changeImage5(this)" onmouseover="changeImage5(this)">
+                        <img src="./assets/img/birthday_gifts/birthday_gifts_6_1.webp" class="thumb-img"
+                            onclick="changeImage5(this)" onmouseover="changeImage5(this)">
+                        <img src="./assets/img/birthday_gifts/birthday_gifts_6_2.jpg" class="thumb-img"
+                            onclick="changeImage5(this)" onmouseover="changeImage5(this)">
+                        <img src="./assets/img/birthday_gifts/birthday_gifts_6_3.webp" class="thumb-img"
+                            onclick="changeImage5(this)" onmouseover="changeImage5(this)">
+                    </div>
+                </div>
+                <div class="col-lg-6 px-5 pt-4">
+                    <div class="border box p-4">
+                        <h2><b>Infinity Track Toy</b></h2>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td class="fw6">Material</td>
+                                    <td>Plastic</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw6">Color</td>
+                                    <td>Multi Colors</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw6">Players</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw6">Packaging</td>
+                                    <td>Printed Box</td>
+                                </tr>
+                                <tr>
+                                    <td class="fw6">Country of Origin</td>
+                                    <td>Made in India</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="mb-1 mt-2"><b>Infinity Track – Imaginative Play That Never Ends!</b></p>
+                        <p>Unlock a world of creativity with the Infinity Track, a dynamic and engaging playset that inspires endless fun for curious young minds. Designed for flexibility and excitement, this interactive toy encourages hands-on learning and hours of entertainment.</p>
+                        <p><b>Product Features:</b></p>
+                        <ul>
+                            <li><b>Customizable Track Design: </b>Flexible, interlocking pieces let kids create unique layouts every time—build loops, twists, and turns with ease.</li>
+                            <li><b>Action-Packed Play: </b>Watch the colorful balls zoom through the track, providing fast-paced, kinetic fun.</li>
+                            <li><b>Skill Development: </b>Boosts fine motor skills, spatial awareness, hand-eye coordination, and critical thinking.</li>
+                            <li><b>Encourages Creativity: </b>Open-ended design supports imaginative storytelling and problem-solving.</li>
+                            <li><b>Safe & Durable: </b>Crafted from non-toxic, child-safe materials built to last through countless play sessions.</li>
+                        </ul>
+                        <div class="text-center">
+                            <a href="#" role="button" class="button btn btn-primary mt-3" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">
+                                <span class="h4"><i class="fa-brands fa-whatsapp"></i> </span>
+                                Get Based Del</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- form -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                        <img src="./assets/img/logo.png" width="150px" alt="" class="img-fluid">
+                    </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe src="https://app.topfunnel.in/widget/form/683577fb636ca"
+                        style="width:100%;height:400px;border:none;border-radius:3px" id="inline-683577fb636ca"
+                        data-form-name="shipra Play house" data-layout-iframe-id="inline-683577fb636ca"
+                        data-form-id="683577fb636ca" data-height="400" title="shipra Play house">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- form -->
+    <!-- Birthday end -->
+
+
+
+
+
+
+
+
+
+
+    <!-- footer start -->
+    <section class="contact mt-5">
+        <div class="container-fluid px-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Contact Us</h2>
+                    <div class="d-flex">
+                        <div class="pt-1">
+                            <i class="fa-solid fa-location-dot contact-logo"></i>
+                        </div>
+                        <div class="px-3">
+                            <span>Mumbai, Delhi, Rajkot</span><br>
+                            <a href="#"> <span>Get Directions</span>
+                                <i class="fa-solid fa-right-long text-white"></i></a>
+                        </div>
+                    </div>
+                    <div class="d-flex pt-4">
+
+                        <div class="pt-1">
+                            <a href="mailto:prash108nc@gmail.com">
+                                <i class="fa-solid fa-envelope contact-logo"></i>
+                        </div>
+                        <div class="px-3">
+                            <span>Send Email</span>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="d-flex pt-4">
+                        <div class="pt-1">
+                            <a href="tel:9175371081">
+                                <i class="fa-solid fa-phone contact-logo"></i>
+                        </div>
+                        <div class="px-3">
+                            <span>9175371081</span>
+                        </div>
+                        </a>
+                    </div>
+                    <div class=" py-4 py-md-0 mt-md-4">
+                        <span class="pe-3">Share:</span>
+                        <span class="contact-socialMediaIcon"><a href="#"><i
+                                    class="fa-brands fa-facebook-f"></i></a></span>
+                        <span class="contact-socialMediaIcon"><a href="#"><i
+                                    class="fa-brands fa-linkedin-in"></i></a></span>
+                        <span class="contact-socialMediaIcon"><a href="#"><i
+                                    class="fa-brands fa-x-twitter"></i></a></span>
+                        <span class="contact-socialMediaIcon"><a href="https://wa.link/tlxn9m"><i
+                                    class="fa-brands fa-whatsapp"></i></a></span>
+                        <span class="contact-socialMediaIcon"><a href="mailto:prash108nc@gmail.com"><i
+                                    class="fa-solid fa-envelope"></i></a></span>
+                        <span class="contact-socialMediaIcon"><a href="#"><i
+                                    class="fa-brands fa-instagram"></i></a></span>
+                    </div>
+                </div>
+                <div class="col-md-6 ">
+                    <div class="contact-form">
+                        <div class="contact-message position-relative">
+                            <label for="message">Describe Your Requirement</label>
+                            <textarea class="form-control p-4" name="message" id="message"
+                                placeholder='I would like to...'></textarea>
+                        </div>
+                        <button class="button mt-3">
+                            <h6 class="fw-bold mb-0 px-5 py-2">
+                                <a href="#">
+                                    Submit
+                                </a>
+                            </h6>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer end -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"></script>
+    <script>
+        function changeImage(thumb) {
+            const main = document.getElementById('mainDisplay');
+            main.src = thumb.src;
+            // Remove active from all
+            document.querySelectorAll('.thumb-img').forEach(img => img.classList.remove('active'));
+            // Add active to selected
+            thumb.classList.add('active');
+        } function changeImage1(thumb) {
+            const main = document.getElementById('mainDisplay1');
+            main.src = thumb.src;
+            // Remove active from all
+            document.querySelectorAll('.thumb-img').forEach(img => img.classList.remove('active'));
+            // Add active to selected
+            thumb.classList.add('active');
+        }
+        function changeImage2(thumb) {
+            const main = document.getElementById('mainDisplay2');
+            main.src = thumb.src;
+            // Remove active from all
+            document.querySelectorAll('.thumb-img').forEach(img => img.classList.remove('active'));
+            // Add active to selected
+            thumb.classList.add('active');
+        }
+        function changeImage3(thumb) {
+            const main = document.getElementById('mainDisplay3');
+            main.src = thumb.src;
+            // Remove active from all
+            document.querySelectorAll('.thumb-img').forEach(img => img.classList.remove('active'));
+            // Add active to selected
+            thumb.classList.add('active');
+        }
+        function changeImage4(thumb) {
+            const main = document.getElementById('mainDisplay4');
+            main.src = thumb.src;
+            // Remove active from all
+            document.querySelectorAll('.thumb-img').forEach(img => img.classList.remove('active'));
+            // Add active to selected
+            thumb.classList.add('active');
+        }
+        function changeImage5(thumb) {
+            const main = document.getElementById('mainDisplay5');
+            main.src = thumb.src;
+            // Remove active from all
+            document.querySelectorAll('.thumb-img').forEach(img => img.classList.remove('active'));
+            // Add active to selected
+            thumb.classList.add('active');
+        }
+    </script>
+</body>
+
+</html>
