@@ -233,7 +233,15 @@ header .nav-button {
 .musical table td:first-child {
     padding: 4px 0;
 }
-
+.musical a{
+color: #000000;
+}
+.musical .button {
+    color: #fff;
+}
+.musical .button:hover {
+    color: #0D8120;
+}
 .fw6 {
     font-weight: 600;
 }

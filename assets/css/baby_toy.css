@@ -233,7 +233,15 @@ header .nav-button {
 .baby table td:first-child {
     padding: 4px 0;
 }
-
+.baby a{
+color: #000000;
+}
+.baby .button {
+    color: #fff;
+}
+.baby .button:hover {
+    color: #0D8120;
+}
 .fw6 {
     font-weight: 600;
 }

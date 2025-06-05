@@ -233,7 +233,15 @@ header .nav-button {
 .Construction table td:first-child {
     padding: 4px 0;
 }
-
+.Construction a{
+color: #000000;
+}
+.Construction .button {
+    color: #fff;
+}
+.Construction .button:hover {
+    color: #0D8120;
+}
 .fw6 {
     font-weight: 600;
 }

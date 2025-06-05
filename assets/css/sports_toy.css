@@ -233,7 +233,15 @@ header .nav-button {
 .sports table td:first-child {
     padding: 4px 0;
 }
-
+.sports a{
+color: #000000;
+}
+.sports .button {
+    color: #fff;
+}
+.sports .button:hover {
+    color: #0D8120;
+}
 .fw6 {
     font-weight: 600;
 }

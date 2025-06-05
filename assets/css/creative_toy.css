@@ -233,7 +233,15 @@ header .nav-button {
 .creative table td:first-child {
     padding: 4px 0;
 }
-
+.creative a{
+color: #000000;
+}
+.creative .button {
+    color: #fff;
+}
+.creative .button:hover {
+    color: #0D8120;
+}
 .fw6 {
     font-weight: 600;
 }
