@@ -286,19 +286,15 @@ header .nav-button {
 .contact .contact-socialMediaIcon a {
     color: white;
 }
-
+.contact a{
+    color: #ffffff;
+}
 .contact .contact-socialMediaIcon:hover {
     background-color: white;
 }
 
 .contact .contact-socialMediaIcon:hover a {
     color: #9e1000;
-}
-
-.contact .contact-form {
-    border-radius: 6px;
-    background: #fff;
-    padding: 32px 40px;
 }
 
 /* footer end */

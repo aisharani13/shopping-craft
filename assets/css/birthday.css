@@ -181,67 +181,61 @@ header .nav-button {
 /* navbar section end */
 
 /* Birthday start */
-.birthday .col-lg-6 .mainProductImage {
-    border: 2px solid #db5202;
-    border-radius: 10px;
-    box-shadow: 1px 1px 5px gray;
-    max-height: 450px;
-    min-height: 450px;
+.jk-banner-area .jk-banner-item-warpper1 {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 0;
+    overflow: hidden;
+    transition: all 0.3s;
+    border: 1px solid #d9d2d2;
     width: 100%;
 }
 
-.birthday .col-lg-6 .thumb-img {
-    width: 80px;
-    height: 80px;
-    object-fit: cover;
-    border-radius: 10px;
-    cursor: pointer;
-    border: 1px solid rgb(109, 108, 108);
-    transition: all 0.1s;
-    margin-right: 20px;
+.jk-banner-area .jk-banner-item-warpper1:hover {
+    transform: scale(1.05);
 }
 
-.birthday .col-lg-6 .thumb-img:last-child {
-    margin-right: 0px;
+.jk-banner-area .jk_bnr_prd_img1 img {
+    max-height: 260px;
+    min-height: 200px;
+    width: 100%;
+    transition: all 0.5s;
 }
 
-.birthday .col-lg-6 .thumb-img.active {
-    border: 2px solid red;
+.jk-banner-area .jk-banner-item-content h2 a {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2f333a;
 }
 
-.birthday .col-lg-6 .thumb-img:hover {
-    padding: 5px;
+.jk-banner-area .jk-banner-item-warpper1:hover .jk-banner-item-content h2 a {
+    color: #9E1000;
 }
 
-.birthday .box {
-    border-radius: 9px;
-}
-
-.birthday table {
-    caption-side: bottom;
-    border-collapse: collapse;
-}
-
-.birthday tbody,
-.birthday tr,
-.birthday td {
-    border-color: inherit;
-    border-style: solid;
-    border-width: 0;
-}
-
-.birthday table td:first-child {
-    padding: 4px 0;
-}
-
-.fw6 {
+.button {
+    padding: 10px 30px;
+    font-size: 18px;
     font-weight: 600;
+    border: none;
+    background-color: #0D8120;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid #0D8120;
+    transition: all 0.4s;
 }
 
-.birthday table td:last-child {
-    padding: 4px 0 4px 50px;
+.button:hover {
+    color: #0D8120;
+    background-color: white;
+    border: 1px solid #0D8120;
+}
+.button a {
+    color: white;
 }
 
+.button:hover a {
+    color: #0D8120;
+}
 /* Birthday end */
 
 
@@ -286,19 +280,15 @@ header .nav-button {
 .contact .contact-socialMediaIcon a {
     color: white;
 }
-
+.contact a{
+    color: #ffffff;
+}
 .contact .contact-socialMediaIcon:hover {
     background-color: white;
 }
 
 .contact .contact-socialMediaIcon:hover a {
     color: #9e1000;
-}
-
-.contact .contact-form {
-    border-radius: 6px;
-    background: #fff;
-    padding: 32px 40px;
 }
 
 /* footer end */
