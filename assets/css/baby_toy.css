@@ -236,11 +236,29 @@ header .nav-button {
 .baby a{
 color: #000000;
 }
-.baby .button {
+.baby .button{
     color: #fff;
+    padding: 15px 20px;
+    border-radius: 2px;
+    font-size: 16px;
+}
+.baby .button#whats-link{
+    margin-right: 10px;
+}
+.baby .button#buy-now{
+   background: #db5202;
+    border-color: #db5202;
+    transition: all 0.5s;
+}
+.baby .button span{
+    margin-right:7px;
 }
 .baby .button:hover {
     color: #0D8120;
+}
+.baby .button#buy-now:hover{
+    color: #ffffff;
+    background: linear-gradient(to top right,#eeeeee ,#db5202 ,#db5202);
 }
 .fw6 {
     font-weight: 600;
@@ -259,9 +277,17 @@ color: #000000;
 /* footer start */
 .contact {
     padding: 20px 0;
-    background: #2f333a;
+    /* background: #2f333a; */
+    background-color: #00142B;
 }
-
+.contact a{
+    transition: all 0.3s;
+}
+.contact a:hover{
+    color: #ff6f00;
+    letter-spacing: 0.7px;
+    font-weight: 550;
+}
 .contact h2 {
     color: #fff;
     font-size: 26px;
@@ -270,7 +296,8 @@ color: #000000;
 }
 
 .contact .contact-logo {
-    color: #9e1000;
+    color: #ff6f00;
+    /* color: #9e1000; */
     font-size: 22px;
 }
 
@@ -279,7 +306,13 @@ color: #000000;
     color: #fff;
     font-weight: 400;
 }
+.contact ul li {
+    line-height:30px;
+}
 
+.contact #contact-social-media .d-flex{
+    padding: 15px 0px;
+}
 .contact .contact-socialMediaIcon {
     display: inline-block;
     width: 35px;
@@ -290,13 +323,13 @@ color: #000000;
     text-align: center;
     margin-right: 10px;
 }
-.contact a{
-    color: #ffffff;
-}
+
 .contact .contact-socialMediaIcon a {
     color: white;
 }
-
+.contact a{
+    color: #ffffff;
+}
 .contact .contact-socialMediaIcon:hover {
     background-color: white;
 }

@@ -252,9 +252,17 @@ header .nav-button {
 /* footer start */
 .contact {
     padding: 20px 0;
-    background: #2f333a;
+    /* background: #2f333a; */
+    background-color: #00142B;
 }
-
+.contact a{
+    transition: all 0.3s;
+}
+.contact a:hover{
+    color: #ff6f00;
+    letter-spacing: 0.7px;
+    font-weight: 550;
+}
 .contact h2 {
     color: #fff;
     font-size: 26px;
@@ -263,7 +271,8 @@ header .nav-button {
 }
 
 .contact .contact-logo {
-    color: #9e1000;
+    color: #ff6f00;
+    /* color: #9e1000; */
     font-size: 22px;
 }
 
@@ -272,7 +281,13 @@ header .nav-button {
     color: #fff;
     font-weight: 400;
 }
+.contact ul li {
+    line-height:30px;
+}
 
+.contact #contact-social-media .d-flex{
+    padding: 15px 0px;
+}
 .contact .contact-socialMediaIcon {
     display: inline-block;
     width: 35px;
@@ -283,13 +298,13 @@ header .nav-button {
     text-align: center;
     margin-right: 10px;
 }
-.contact a{
-    color: #ffffff;
-}
+
 .contact .contact-socialMediaIcon a {
     color: white;
 }
-
+.contact a{
+    color: #ffffff;
+}
 .contact .contact-socialMediaIcon:hover {
     background-color: white;
 }
