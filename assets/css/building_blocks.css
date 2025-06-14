@@ -180,8 +180,8 @@ header .nav-button {
 }
 /* navbar section end */
 
-/* Puzzle start */
-.puzzle .col-lg-6 .mainProductImage {
+/* Building start */
+.building .col-lg-6 .mainProductImage {
     border: 2px solid #db5202;
     border-radius: 10px;
     box-shadow: 1px 1px 5px gray;
@@ -190,7 +190,7 @@ header .nav-button {
     width: 100%;
 }
 
-.puzzle .col-lg-6 .thumb-img {
+.building .col-lg-6 .thumb-img {
     width: 80px;
     height: 80px;
     object-fit: cover;
@@ -201,48 +201,56 @@ header .nav-button {
     margin-right: 20px;
 }
 
-.puzzle .col-lg-6 .thumb-img:last-child {
+.building .col-lg-6 .thumb-img:last-child {
     margin-right: 0px;
 }
 
-.puzzle .col-lg-6 .thumb-img.active {
+.building .col-lg-6 .thumb-img.active {
     border: 2px solid red;
 }
 
-.puzzle .col-lg-6 .thumb-img:hover {
+.building .col-lg-6 .thumb-img:hover {
     padding: 5px;
 }
 
-.puzzle .box {
+.building .box {
     border-radius: 9px;
 }
 
-.puzzle table {
+.building table {
     caption-side: bottom;
     border-collapse: collapse;
 }
 
-.puzzle tbody,
-.puzzle tr,
-.puzzle td {
+.building tbody,
+.building tr,
+.building td {
     border-color: inherit;
     border-style: solid;
     border-width: 0;
 }
 
-.puzzle table td:first-child {
+.building table td:first-child {
     padding: 4px 0;
 }
-
+.building a{
+color: #000000;
+}
+.building .button {
+    color: #fff;
+}
+.building .button:hover {
+    color: #0D8120;
+}
 .fw6 {
     font-weight: 600;
 }
 
-.puzzle table td:last-child {
+.building table td:last-child {
     padding: 4px 0 4px 50px;
 }
 
-/* Puzzle end */
+/* Building end */
 
 
 
@@ -271,9 +279,7 @@ header .nav-button {
     color: #fff;
     font-weight: 400;
 }
-.contact a{
-    color: #ffffff;
-}
+
 .contact .contact-socialMediaIcon {
     display: inline-block;
     width: 35px;
@@ -288,7 +294,9 @@ header .nav-button {
 .contact .contact-socialMediaIcon a {
     color: white;
 }
-
+.contact a{
+    color: #ffffff;
+}
 .contact .contact-socialMediaIcon:hover {
     background-color: white;
 }

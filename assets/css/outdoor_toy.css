@@ -237,7 +237,15 @@ header .nav-button {
 .fw6 {
     font-weight: 600;
 }
-
+.outdoor a{
+color: #000000;
+}
+.outdoor .button {
+    color: #fff;
+}
+.outdoor .button:hover {
+    color: #0D8120;
+}
 .outdoor table td:last-child {
     padding: 4px 0 4px 50px;
 }
