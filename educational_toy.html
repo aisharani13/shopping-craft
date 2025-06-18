@@ -645,16 +645,16 @@
             <div class="row">
                 <div class="col-lg-6">
                     <img src="./assets/img/Products img/Edited/F306/1.jpg" alt="education_1"
-                        class="img-fluid mainProductImage" id="mainDisplay5">
+                        class="img-fluid mainProductImage" id="mainDisplay6">
                     <div class="d-flex justify-content-center gap-2 mt-4 flex-wrap">
                         <img src="./assets/img/Products img/Edited/F306/1.jpg" class="thumb-img active"
-                            onclick="changeImage5(this)" onmouseover="changeImage5(this)">
+                            onclick="changeImage6(this)" onmouseover="changeImage6(this)">
                         <img src="./assets/img/Products img/Edited/F306/2.jpg" class="thumb-img"
-                            onclick="changeImage5(this)" onmouseover="changeImage5(this)">
+                            onclick="changeImage6(this)" onmouseover="changeImage6(this)">
                         <img src="./assets/img/Products img/Edited/F306/3.jpg" class="thumb-img"
-                            onclick="changeImage5(this)" onmouseover="changeImage5(this)">
+                            onclick="changeImage6(this)" onmouseover="changeImage6(this)">
                         <img src="./assets/img/Products img/Edited/F306/4.jpg" class="thumb-img"
-                            onclick="changeImage5(this)" onmouseover="changeImage5(this)">
+                            onclick="changeImage6(this)" onmouseover="changeImage6(this)">
                     </div>
                 </div>
                 <div class="col-lg-6 px-5 pt-4">
@@ -872,6 +872,14 @@
         }
         function changeImage5(thumb) {
             const main = document.getElementById('mainDisplay5');
+            main.src = thumb.src;
+            // Remove active from all
+            document.querySelectorAll('.thumb-img').forEach(img => img.classList.remove('active'));
+            // Add active to selected
+            thumb.classList.add('active');
+        }
+         function changeImage6(thumb) {
+            const main = document.getElementById('mainDisplay6');
             main.src = thumb.src;
             // Remove active from all
             document.querySelectorAll('.thumb-img').forEach(img => img.classList.remove('active'));

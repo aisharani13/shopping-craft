@@ -639,16 +639,16 @@
             <div class="row">
                 <div class="col-lg-6">
                     <img src="./assets/img/Products img/Edited/F406/1.png" alt="board_1"
-                        class="img-fluid mainProductImage" id="mainDisplay4">
+                        class="img-fluid mainProductImage" id="mainDisplay6">
                     <div class="d-flex justify-content-center gap-2 mt-4 flex-wrap">
                         <img src="./assets/img/Products img/Edited/F406/1.png" class="thumb-img active"
-                            onclick="changeImage4(this)" onmouseover="changeImage4(this)">
+                            onclick="changeImage6(this)" onmouseover="changeImage6(this)">
                         <img src="./assets/img/Products img/Edited/F406/2.png" class="thumb-img"
-                            onclick="changeImage4(this)" onmouseover="changeImage4(this)">
+                            onclick="changeImage6(this)" onmouseover="changeImage6(this)">
                         <img src="./assets/img/Products img/Edited/F406/3.png" class="thumb-img"
-                            onclick="changeImage4(this)" onmouseover="changeImage4(this)">
+                            onclick="changeImage6(this)" onmouseover="changeImage6(this)">
                         <img src="./assets/img/Products img/Edited/F406/4.png" class="thumb-img"
-                            onclick="changeImage4(this)" onmouseover="changeImage4(this)">
+                            onclick="changeImage6(this)" onmouseover="changeImage6(this)">
                     </div>
                 </div>
                 <div class="col-lg-6 px-5 pt-4">
@@ -711,16 +711,16 @@
             <div class="row">
                 <div class="col-lg-6">
                     <img src="./assets/img/Products img/Edited/F407/1.jpg" alt="board_1"
-                        class="img-fluid mainProductImage" id="mainDisplay5">
+                        class="img-fluid mainProductImage" id="mainDisplay7">
                     <div class="d-flex justify-content-center gap-2 mt-4 flex-wrap">
                         <img src="./assets/img/Products img/Edited/F407/1.jpg" class="thumb-img active"
-                            onclick="changeImage5(this)" onmouseover="changeImage5(this)">
+                            onclick="changeImage7(this)" onmouseover="changeImage7(this)">
                         <img src="./assets/img/Products img/Edited/F407/2.jpg" class="thumb-img"
-                            onclick="changeImage5(this)" onmouseover="changeImage5(this)">
+                            onclick="changeImage7(this)" onmouseover="changeImage7(this)">
                         <img src="./assets/img/Products img/Edited/F407/5.jpg" class="thumb-img"
-                            onclick="changeImage5(this)" onmouseover="changeImage5(this)">
+                            onclick="changeImage7(this)" onmouseover="changeImage7(this)">
                         <img src="./assets/img/Products img/Edited/F407/6.jpg" class="thumb-img"
-                            onclick="changeImage5(this)" onmouseover="changeImage5(this)">
+                            onclick="changeImage7(this)" onmouseover="changeImage7(this)">
                     </div>
                 </div>
                 <div class="col-lg-6 px-5 pt-4">
@@ -967,6 +967,22 @@
         }
         function changeImage5(thumb) {
             const main = document.getElementById('mainDisplay5');
+            main.src = thumb.src;
+            // Remove active from all
+            document.querySelectorAll('.thumb-img').forEach(img => img.classList.remove('active'));
+            // Add active to selected
+            thumb.classList.add('active');
+        }  
+          function changeImage6(thumb) {
+            const main = document.getElementById('mainDisplay6');
+            main.src = thumb.src;
+            // Remove active from all
+            document.querySelectorAll('.thumb-img').forEach(img => img.classList.remove('active'));
+            // Add active to selected
+            thumb.classList.add('active');
+        } 
+           function changeImage7(thumb) {
+            const main = document.getElementById('mainDisplay7');
             main.src = thumb.src;
             // Remove active from all
             document.querySelectorAll('.thumb-img').forEach(img => img.classList.remove('active'));
