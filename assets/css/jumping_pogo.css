@@ -175,8 +175,8 @@ header .nav-button {
 }
 /* navbar section end */
 
-/* rotating_cube start */
-.rotating_cube .col-lg-6 .mainProductImage {
+/* jumping_pogo start */
+.jumping_pogo .col-lg-6 .mainProductImage {
     border: 2px solid #db5202;
     border-radius: 10px;
     box-shadow: 1px 1px 5px gray;
@@ -186,7 +186,7 @@ header .nav-button {
     position: relative;
 }
 
-.rotating_cube .col-lg-6 .thumb-img {
+.jumping_pogo .col-lg-6 .thumb-img {
     width: 80px;
     height: 80px;
     object-fit: cover;
@@ -197,18 +197,18 @@ header .nav-button {
     margin-right: 20px;
 }
 
-.rotating_cube .col-lg-6 .thumb-img:last-child {
+.jumping_pogo .col-lg-6 .thumb-img:last-child {
     margin-right: 0px;
 }
 
-.rotating_cube .col-lg-6 .thumb-img.active {
+.jumping_pogo .col-lg-6 .thumb-img.active {
     border: 2px solid red;
 }
 
-.rotating_cube .col-lg-6 .thumb-img:hover {
+.jumping_pogo .col-lg-6 .thumb-img:hover {
     padding: 5px;
 }
-.rotating_cube .col-lg-6 #youtube{
+.jumping_pogo .col-lg-6 #youtube{
     width: 100%;
     max-height: 450px;
     min-height: 450px;
@@ -218,50 +218,50 @@ header .nav-button {
    left: 0;
    right: 0;
 }
-.rotating_cube .box {
+.jumping_pogo .box {
     border-radius: 9px;
 }
 
-.rotating_cube table {
+.jumping_pogo table {
     caption-side: bottom;
     border-collapse: collapse;
 }
 
-.rotating_cube tbody,
-.rotating_cube tr,
-.rotating_cube td {
+.jumping_pogo tbody,
+.jumping_pogo tr,
+.jumping_pogo td {
     border-color: inherit;
     border-style: solid;
     border-width: 0;
 }
 
-.rotating_cube table td:first-child {
+.jumping_pogo table td:first-child {
     padding: 4px 0;
 }
-.rotating_cube a{
+.jumping_pogo a{
 color: #000000;
 }
-.rotating_cube .button{
+.jumping_pogo .button{
     color: #fff;
     padding: 15px 20px;
     border-radius: 2px;
     font-size: 16px;
 }
-.rotating_cube .button#whats-link{
+.jumping_pogo .button#whats-link{
     margin-right: 10px;
 }
-.rotating_cube .button#buy-now{
+.jumping_pogo .button#buy-now{
    background: #db5202;
     border-color: #db5202;
     transition: all 0.5s;
 }
-.rotating_cube .button span{
+.jumping_pogo .button span{
     margin-right:7px;
 }
-.rotating_cube .button:hover {
+.jumping_pogo .button:hover {
     color: #0D8120;
 }
-.rotating_cube .button#buy-now:hover{
+.jumping_pogo .button#buy-now:hover{
     color: #ffffff;
     background: linear-gradient(to top right,#eeeeee ,#db5202 ,#db5202);
 }
@@ -269,11 +269,11 @@ color: #000000;
     font-weight: 600;
 }
 
-.rotating_cube table td:last-child {
+.jumping_pogo table td:last-child {
     padding: 4px 0 4px 50px;
 }
 
-/* rotating_cube end */
+/* jumping_pogo end */
 
 
 
@@ -355,7 +355,7 @@ color: #000000;
         width: 304px;
     }
 
-    .rotating_cube .col-lg-6 #mainDisplay {
+    .jumping_pogo .col-lg-6 #mainDisplay {
         min-height: 350px;
         width: 100%;
     }
