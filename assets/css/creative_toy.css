@@ -62,7 +62,40 @@ header .input-group {
     margin: 7px 0;
     width: 404px;
 }
+/* Search product list */
+#productList {
+    position: absolute;
+    top:55px;
+    /* right: 20px; */
+   min-width: 300px;
+    /* border: 1px solid gainsboro; */
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px gray;
+    z-index: 999;
+    background-color: white;
+    max-height: 400px;
+    overflow-y: auto;
+}
 
+#productList .product-item {
+    padding: 10px 15px;
+    border-bottom: 1px solid #ccc;
+    transition: all 0.2s;
+}
+
+#productList  .product-item:hover {
+    /* background-color: rgb(211, 243, 253); */
+    background-color: #0C781E;
+    color: rgb(255, 255, 255);
+}
+#productList  .product-item a{
+    color: black;
+}
+
+#productList  .product-item:hover a{
+    color: rgb(255, 255, 255);
+}
+/* Search product list */
 header .form-control {
     height: 42px;
     background-color: #F0F2F5;
