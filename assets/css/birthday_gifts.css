@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Fredoka:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sniglet:wght@400;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.view {
+    color: #9E1000;
+    font-weight: 500;
+    text-decoration: underline !important;
+}
+
+.button {
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    background-color: #0D8120;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid #0D8120;
+    transition: all 0.4s;
+}
+
+.button:hover {
+    color: #0D8120;
+    background-color: white;
+    border: 1px solid #0D8120;
+}
+
+.button a {
+    color: white;
+}
+
+.button:hover a {
+    color: #0D8120;
+}
+
+/* topheader section start */
+#topheader {
+    background-color: #0D8120;
+    color: white;
+    line-height: 30px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+/* topheader section end */
+/* header section start */
+header {
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, .4);
+}
+
+header .input-group {
+    margin: 7px 0;
+    width: 404px;
+}
+/* Search product list */
+#productList {
+    position: absolute;
+    top:55px;
+    /* right: 20px; */
+   min-width: 300px;
+    /* border: 1px solid gainsboro; */
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px gray;
+    z-index: 999;
+    background-color: white;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+#productList .product-item {
+    padding: 10px 15px;
+    border-bottom: 1px solid #ccc;
+    transition: all 0.2s;
+}
+
+#productList  .product-item:hover {
+    /* background-color: rgb(211, 243, 253); */
+    background-color: #0C781E;
+    color: rgb(255, 255, 255);
+}
+#productList  .product-item a{
+    color: black;
+}
+
+#productList  .product-item:hover a{
+    color: rgb(255, 255, 255);
+}
+/* Search product list */
+header .form-control {
+    height: 42px;
+    background-color: #F0F2F5;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+header .input-group-text {
+    background-color: #db5202;
+    color: white;
+    border: 1px solid #db5202;
+}
+
+header .nav .nav-item {
+    line-height: 40px;
+    padding-inline: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+header .nav .nav-link {
+    padding-inline: 0px;
+    color: rgb(0, 0, 0);
+}
+
+header .nav .nav-link.active {
+    color: #db5202;
+}
+
+header .nav .nav-link:active {
+    color: #db5202;
+}
+
+header .nav .nav-link:hover {
+    color: #db5202;
+}
+
+header .nav .nav-item .dropdown-menu {
+    padding: 0;
+}
+
+header .nav .nav-item .dropdown-menu table {
+    box-shadow: 0px 5px 10px gray;
+}
+
+header .nav .nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+header .nav .nav-item .dropdown-menu .dropdown-item {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0px 20px;
+    transition: all 0.3s;
+    color: #000000;
+    margin-right: 0px;
+    line-height: 45px;
+}
+
+header .nav .nav-item .dropdown-menu .dropdown-item:hover {
+    color: #ffffff;
+    /* letter-spacing: 0.7px; */
+    background-color: rgb(240, 240, 240);
+    background-color: #0D8120;
+}
+
+header .nav-button {
+    display: block;
+    cursor: pointer;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: none;
+    line-height: 56px;
+    font-size: 20px;
+}
+
+/* header section end */
+.offcanvas {
+    max-width: 300px !important;
+}
+
+.offcanvas-body {
+    font-size: 17px;
+    padding: 0px;
+    background-color:hsl(249, 87%, 12%);
+}
+
+.offcanvas-body ul li {
+    line-height: 50px;
+    padding: 0px 10px;
+    font-weight: 600;
+    border-top: 1px solid rgb(206, 206, 206);
+    transition: all 0.3s;
+}
+.offcanvas-body ul li:last-child{
+     border-bottom: 1px solid rgb(206, 206, 206);
+}
+.offcanvas-body ul li a {
+    color: white;
+}
+
+.offcanvas-body ul li:hover {
+    background-color: white;
+}
+
+.offcanvas-body ul li:hover a {
+    color: #E56E14;
+
+}
+.offcanvas-body ul li span{
+    color: white;
+}
+.offcanvas-body ul li:hover span{
+    color: #db5202;
+}
+/* navbar section end */
+
+/* Birthday start */
+.jk-banner-area .jk-banner-item-warpper1 {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 0;
+    overflow: hidden;
+    transition: all 0.3s;
+    border: 1px solid #d9d2d2;
+    width: 100%;
+}
+
+.jk-banner-area .jk-banner-item-warpper1:hover {
+    transform: scale(1.05);
+}
+
+.jk-banner-area .jk_bnr_prd_img1 img {
+    max-height: 260px;
+    min-height: 200px;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.jk-banner-area .jk-banner-item-content h2 a {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2f333a;
+}
+
+.jk-banner-area .jk-banner-item-warpper1:hover .jk-banner-item-content h2 a {
+    color: #9E1000;
+}
+
+.button {
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    background-color: #0D8120;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid #0D8120;
+    transition: all 0.4s;
+}
+
+.button:hover {
+    color: #0D8120;
+    background-color: white;
+    border: 1px solid #0D8120;
+}
+.button a {
+    color: white;
+}
+
+.button:hover a {
+    color: #0D8120;
+}
+/* Birthday end */
+
+
+
+
+
+/* footer start */
+.contact {
+    padding: 20px 0;
+    /* background: #2f333a; */
+    background-color: #00142B;
+}
+.contact a{
+    transition: all 0.3s;
+}
+.contact a:hover{
+    color: #ff6f00;
+    letter-spacing: 0.7px;
+    font-weight: 550;
+}
+.contact h2 {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contact .contact-logo {
+    color: #ff6f00;
+    /* color: #9e1000; */
+    font-size: 22px;
+}
+
+.contact span {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+.contact ul li {
+    line-height:30px;
+}
+
+.contact #contact-social-media .d-flex{
+    padding: 15px 0px;
+}
+.contact .contact-socialMediaIcon {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.contact .contact-socialMediaIcon a {
+    color: white;
+}
+.contact a{
+    color: #ffffff;
+}
+.contact .contact-socialMediaIcon:hover {
+    background-color: white;
+}
+
+.contact .contact-socialMediaIcon:hover a {
+    color: #9e1000;
+}
+
+/* footer end */
+/* responsive */
+/* max-width:992px */
+@media screen and (max-width:992px) {}
+
+/* max-width:992px */
+/* max-width:768px */
+@media screen and (max-width:768px) {
+    header .input-group {
+        margin: 4px 0;
+        width: 304px;
+    }
+}
+
+/* max-width:768px */
+/* max-width:576px */
+@media screen and (max-width:576px) {
+    header .form-control {
+        height: 42px;
+        background-color: #F0F2F5;
+        padding-left: 10px;
+        border-radius: 2px;
+    }
+
+}
+
+/* max-width:576px */
+/* max-width:484px */
+@media screen and (max-width:484px) {}
+
+/* max-width:484px */
+/* responsive */
