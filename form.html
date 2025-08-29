@@ -10,63 +10,45 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/montessori_learning.css">
     <style>
-        .product-row {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            font-family: system-ui, sans-serif;
-        }
-
-        .qty-control {
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
+        body .form-card {
+            max-width: 500px;
+            margin: 50px auto;
             background: #fff;
-            border: 1px solid #ddd;
-            border-radius: 10px;
-            padding: 6px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            padding: 30px;
+            transition: 0.3s;
         }
 
-        .qty-btn {
-            width: 34px;
-            height: 34px;
-            border: 0;
-            border-radius: 8px;
-            cursor: pointer;
-            display: grid;
-            place-items: center;
-            font-size: 18px;
-            line-height: 0;
-            background: #f3f4f6;
+        .form-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
         }
 
-        .qty-btn:disabled {
-            opacity: .5;
-            cursor: not-allowed;
-        }
-
-        .qty-input {
-            width: 48px;
+        .form-title {
+            font-size: 1.8rem;
+            font-weight: 600;
             text-align: center;
-            border: 0;
-            outline: none;
-            font-size: 16px;
-            padding: 6px 4px;
+            margin-bottom: 20px;
+            color: #333;
         }
 
-        .qty-input::-webkit-outer-spin-button,
-        .qty-input::-webkit-inner-spin-button {
-            -webkit-appearance: none;
-            margin: 0;
+        .form-label {
+            font-weight: 500;
+            color: #444;
         }
 
-        .add-btn {
-            padding: 10px 14px;
-            border: 0;
-            border-radius: 10px;
+        .btn-submit {
+            background: #DB5202;
+            color: #fff;
+            font-weight: 600;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .btn-submit:hover {
             background: #0D8120;
             color: #fff;
-            cursor: pointer;
         }
     </style>
 </head>
@@ -301,148 +283,35 @@
         </div>
     </div>
     <!-- offcanvas section end -->
-
-
-    <!-- montessori_learning start -->
-    <section class="montessori_learning">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2 class="pt-5"><b><a href="toys-games.html">2 in 1 Montessori Learning toy</a></b></h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 pt-4">
-                    <img src="./assets/img/Products img/Edited/F304/Shipra Play House 2 in 1 Montessori Learning toy_1.jpg"
-                        alt="Shipra Play House 2 in 1 Montessori Learning toy" class="img-fluid mainProductImage"
-                        id="mainDisplay" loading="lazy">
-                    <div class="d-flex justify-content-center gap-2 mt-4 flex-wrap">
-                        <img src="./assets/img/Products img/Edited/F304/Shipra Play House 2 in 1 Montessori Learning toy_1.jpg"
-                            alt="Shipra Play House 2 in 1 Montessori Learning toy" class="thumb-img active"
-                            onclick="changeImage(this)" onmouseover="changeImage(this)" loading="lazy">
-                        <img src="./assets/img/Products img/Edited/F304/Shipra Play House 2 in 1 Montessori Learning toy_2.png"
-                            alt="Shipra Play House 2 in 1 Montessori Learning toy" class="thumb-img"
-                            onclick="changeImage(this)" onmouseover="changeImage(this)" loading="lazy">
-                        <img src="./assets/img/Products img/Edited/F304/Shipra Play House 2 in 1 Montessori Learning toy_3.png"
-                            alt="Shipra Play House 2 in 1 Montessori Learning toy" class="thumb-img"
-                            onclick="changeImage(this)" onmouseover="changeImage(this)" loading="lazy">
-                        <a href="#" role="button" data-bs-toggle="modal" data-bs-target="#youtube1">
-                            <img src="./assets/img/Products img/Edited/F304/Shipra Play House 2 in 1 Montessori Learning toy_4.jpg"
-                                alt="Shipra Play House 2 in 1 Montessori Learning toy" class="thumb-img "
-                                onclick="changeImage(this)" onmouseover="changeImage(this)" loading="lazy">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-6 px-5 pt-4">
-                    <div class="border box p-4 mb-3">
-                        <h4><b>2 in 1 Montessori Learning toy</b></h4>
-                        <h3><b>₹ 325</b></h3>
-                        <span>Free Delivery</span>
-                        <div class="product-row pt-3">
-                            <div class="qty-control" data-min="1" data-max="50">
-                                <button class="qty-btn" data-action="decrement"
-                                    aria-label="Decrease quantity">–</button>
-                                <input class="qty-input" type="number" inputmode="numeric" aria-label="Quantity"
-                                    value="1" />
-                                <button class="qty-btn" data-action="increment"
-                                    aria-label="Increase quantity">+</button>
-                            </div>
-                            <button class="add-btn" id="addToCart">Add to Cart</button>
-                        </div>
-
-                        <div class="text-center mt-4">
-                            <a href="form.html" class="button rounded-1" id="whats-link">
-                                <span class="h4"></span>
-                                Buy Now</a>
-                            <a href="https://wa.link/oppixs" class="button rounded-1" id="whats-link">
-                                <span class="h4"><i class="fa-brands fa-whatsapp"></i> </span>
-                                CONNECT US</a>
-                        </div>
-                    </div>
-                    <div class="border box p-4">
-                        <p>Boost Your Child's Learning Through Play</p>
-                        <p><b> Looking for toys that are both fun and educational?</b></p>
-                        <p>Discover our carefully curated collection designed to support your child’s cognitive, motor,
-                            and social development.</p>
-                        <ul class="list-unstyled">
-                            <li>✅ High-Quality & Safe Materials</li>
-                            <li>✅ Designed by Experts in Child Development</li>
-                            <li>✅ Perfect for Ages 3+</li>
-                            <li>✅ Encourages Imagination, Focus & Skill-Building</li>
-                        </ul>
-                        <ul class="list-unstyled">
-                            <li><b>🧠 Promotes Motor Skills</b></li>
-                            <li><b>🎯 Enhances Coordination</b></li>
-                            <li><b>🚗 Boosts Cognitive Growth </b></li>
-                            <li><b>👀 Teaches Cause & Effect</b></li>
-                        </ul>
-
-                    </div>
-
-
-                </div>
-                <!-- <div class="col-lg-6 px-5 pt-4">
-                    <div class="border box p-4">
-                        <h2><b>Alpha Numeric Puzzle Game</b></h2>
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <td class="fw6">Material</td>
-                                    <td>Plastic</td>
-                                </tr>
-                                <tr>
-                                    <td class="fw6">Color</td>
-                                    <td>NA</td>
-                                </tr>
-                                <tr>
-                                    <td class="fw6">Age Group</td>
-                                    <td>3+</td>
-                                </tr>
-                                <tr>
-                                    <td class="fw6">Packaging</td>
-                                    <td>Printed Box</td>
-                                </tr>
-                                <tr>
-                                    <td class="fw6">Inner</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td class="fw6">Outer/ Master</td>
-                                    <td>112</td>
-                                </tr>
-                                <tr>
-                                    <td class="fw6">Rate</td>
-                                    <td>51 +12% Gst</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        <p class="mb-1 mt-2"><b>Alpha Numeric Puzzle Game – Learn Through Play!</b></p>
-                        <p>Make early learning fun and engaging with the Alpha Numeric Puzzle Game! Designed to
-                            introduce kids to letters and numbers in a hands-on way, this colorful puzzle encourages
-                            cognitive development while keeping little minds entertained. </p>
-                        <p><b>Features:</b></p>
-                        <ul>
-                            <li><b>Complete Learning Set: </b> Includes all 26 letters (A–Z) and numbers 0–9 to build
-                                literacy and numeracy skills.</li>
-                            <li><b>Bright & Engaging: </b>Vivid colors and fun shapes capture children’s attention and
-                                spark curiosity.</li>
-
-                        </ul>
-                        <div class="text-center mt-4">
-                            <a href="https://wa.link/xmj64w" class="button" id="whats-link">
-                                <span class="h4"><i class="fa-brands fa-whatsapp"></i> </span>
-                                CONNECT US</a>
-                            <a href="#" class="button" id="buy-now">
-                                <span class="h5"><i class="fa-solid fa-cart-Shoopping"></i> </span>
-                                BUY NOW</a>
-                        </div>
-                    </div>
-                </div> -->
+    <!-- form start -->
+    <div class="form-card" style="background-color:#f0e9e9">
+        <h2 class="form-title">Order Form</h2>
+        <form>
+            <div class="mb-3">
+                <label for="fullName" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
             </div>
 
-        </div>
-    </section>
-    <!-- montessori_learning end -->
+            <div class="mb-3">
+                <label for="address" class="form-label">Address</label>
+                <textarea class="form-control" id="address" rows="3" placeholder="Enter your address"
+                    required></textarea>
+            </div>
+
+            <div class="mb-3">
+                <label for="pincode" class="form-label">Pin Code</label>
+                <input type="text" class="form-control" id="pincode" placeholder="Enter pin code" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="phone" class="form-label">Phone No.</label>
+                <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+            </div>
+
+            <button type="submit" class="btn btn-submit w-100">Submit</button>
+        </form>
+    </div>
+    <!-- form end -->
 
     <!-- footer start -->
     <section class="contact mt-5">
@@ -575,39 +444,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"></script>
     <script src="./assets/js/search.js"></script>
 
-    <script>
-        const control = document.querySelector('.qty-control');
-        const minusBtn = control.querySelector('[data-action="decrement"]');
-        const plusBtn = control.querySelector('[data-action="increment"]');
-        const input = control.querySelector('.qty-input');
-        const min = Number(control.dataset.min) || 1;
-        const max = Number(control.dataset.max) || 99;
 
-        function clamp(val) { return Math.max(min, Math.min(max, val)); }
-        function refresh() {
-            const val = Number(input.value) || min;
-            input.value = clamp(val);
-            minusBtn.disabled = Number(input.value) <= min;
-            plusBtn.disabled = Number(input.value) >= max;
-        }
-
-        minusBtn.addEventListener('click', () => { input.value = clamp(Number(input.value) - 1); refresh(); });
-        plusBtn.addEventListener('click', () => { input.value = clamp(Number(input.value) + 1); refresh(); });
-        input.addEventListener('input', refresh);
-        input.addEventListener('blur', refresh);
-        input.addEventListener('keydown', (e) => {
-            if (e.key === 'ArrowUp') { e.preventDefault(); plusBtn.click(); }
-            if (e.key === 'ArrowDown') { e.preventDefault(); minusBtn.click(); }
-        });
-        refresh();
-
-        // Example: hook into Add to Cart
-        document.getElementById('addToCart').addEventListener('click', () => {
-            const qty = Number(input.value);
-            // yahan apni cart logic call karo
-            alert(`Added ${qty} item(s) to cart`);
-        });
-    </script>
     <script>
         function changeImage(thumb) {
             const main = document.getElementById('mainDisplay');
