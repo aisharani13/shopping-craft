@@ -408,7 +408,13 @@ color: #000000;
 
 /* max-width:576px */
 /* max-width:484px */
-@media screen and (max-width:484px) {}
+@media screen and (max-width:484px) {
+    .montessori_learning .button{
+    padding: 7px 10px;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+}
 
 /* max-width:484px */
 /* responsive */

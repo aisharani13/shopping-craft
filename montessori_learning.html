@@ -13,8 +13,9 @@
         .product-row {
             display: flex;
             align-items: center;
-            gap: 12px;
+            gap: 10px;
             font-family: system-ui, sans-serif;
+            flex-wrap: wrap;
         }
 
         .qty-control {
@@ -24,7 +25,7 @@
             background: #fff;
             border: 1px solid #ddd;
             border-radius: 10px;
-            padding: 6px;
+            padding: 4px;
         }
 
         .qty-btn {
@@ -333,7 +334,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-6 px-5 pt-4">
+                <div class="col-lg-6 px-3 px-sm-5 pt-4">
                     <div class="border box p-4 mb-3">
                         <h4><b>2 in 1 Montessori Learning toy</b></h4>
                         <h3><b>₹ 325</b></h3>
@@ -350,11 +351,11 @@
                             <button class="add-btn" id="addToCart">Add to Cart</button>
                         </div>
 
-                        <div class="text-center mt-4">
-                            <a href="form.html" class="button rounded-1" id="whats-link">
+                        <div class="text-center mt-4 d-flex flex-wrap">
+                            <a href="form.html" class="button rounded-1 me-2" id="buyNowBtn">
                                 <span class="h4"></span>
                                 Buy Now</a>
-                            <a href="https://wa.link/oppixs" class="button rounded-1" id="whats-link">
+                            <a href="https://wa.link/oppixs" class="button rounded-1">
                                 <span class="h4"><i class="fa-brands fa-whatsapp"></i> </span>
                                 CONNECT US</a>
                         </div>
@@ -576,6 +577,16 @@
     <script src="./assets/js/search.js"></script>
 
     <script>
+        function changeImage(thumb) {
+            const main = document.getElementById('mainDisplay');
+            main.src = thumb.src;
+            // Remove active from all
+            document.querySelectorAll('.thumb-img').forEach(img => img.classList.remove('active'));
+            // Add active to selected
+            thumb.classList.add('active');
+        } 
+    </script>
+    <script>
         const control = document.querySelector('.qty-control');
         const minusBtn = control.querySelector('[data-action="decrement"]');
         const plusBtn = control.querySelector('[data-action="increment"]');
@@ -609,14 +620,18 @@
         });
     </script>
     <script>
-        function changeImage(thumb) {
-            const main = document.getElementById('mainDisplay');
-            main.src = thumb.src;
-            // Remove active from all
-            document.querySelectorAll('.thumb-img').forEach(img => img.classList.remove('active'));
-            // Add active to selected
-            thumb.classList.add('active');
-        } 
+        document.getElementById("buyNowBtn").addEventListener("click", function (event) {
+            event.preventDefault(); // pehle rok lo
+            const unitPrice = 325;
+            const qty = document.querySelector(".qty-input").value;
+            const total = unitPrice * qty;
+
+            // localStorage me dono save karo
+            localStorage.setItem("selectedPrice", unitPrice);
+            localStorage.setItem("selectedQty", qty);
+            localStorage.setItem("totalPrice", total);
+            window.location.href = "form.html"; // ab redirect karo
+        });
     </script>
 </body>
 
